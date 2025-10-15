@@ -25,6 +25,8 @@ else
         sudo apt-get update
         sudo apt-get -y install cuda-toolkit-13-0
         rm cuda-repo-wsl-ubuntu-13-0-local_13.0.1-1_amd64.deb
+        # setting up the git credential manager to connect to the main version as well
+        git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
     else
         echo "NOT ON WSL UBUNTU. INSTALL CUDA MANUALLY."
     fi
