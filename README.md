@@ -4,7 +4,7 @@ My personal setup and dotfiles for wsl/ubuntu servers. For usage on a fresh Ubun
 
 ```bash
 sudo apt install git -y
-git clone server-dotfiles
+git clone https://github.com/whuang37/server-dotfiles.git
 cd server-dotfiles
 . ./setup.sh
 ```
